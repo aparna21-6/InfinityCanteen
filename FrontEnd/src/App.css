@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.background{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("C:\Users\APARNA SRIVASTAVA\OneDrive\Desktop\InfinityCanteen\FrontEnd\public\Food background , herbs and spices.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.box {
+
+  width: 200px;               
+
+  height: 100px;           
+  padding: 20px;              
+
+  border: 2px solid grey;   
+
+  margin: 10px;               
+  background-color: lightblue;
+  background-origin: padding-box;
+  display: flex;
+  justify-content: center;
+
+}
+
+.login{
+  width: 400px;
+  height: 220px;
+  background-color: #ffffff79;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  text-shadow: 0 0 3px black;
+
+}
+input {
+  width: 90%;
+  padding-top: 3px ;
+  padding-bottom: 4px;
+  text-align:left;
+  padding-left: 6px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  
+}
+.password {
+  color: rgba(0, 0, 255, 0.575);
+  margin-left: 240px;
+  margin-top: 50px;
+}
+
+a{
+  color:rgba(0, 0, 255, 0.575)
+  
+}
+.Signin {
+  color: black;
+  background-color: rgba(0, 195, 255, 0.893);
+  text-shadow: 0 0 1px black;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
+* {
+  color: black;;
+}
+
+.create{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#ffffff79 ;
+  border-radius: 10px;
+  width: 400px;
+  height: 280px;
+
+}
+.Account {
+  color: black;
+  background-color: rgba(0, 195, 255, 0.893);
+  text-shadow: 0 0 1px black;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
+
